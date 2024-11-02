@@ -1,0 +1,37 @@
+/* Write your CSS here */
+
+.event-item-container {
+  padding: 0;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.event-item-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 0;
+  background-color: #323f4b;
+}
+
+.event-img {
+  max-width: 320px;
+}
+
+.event-name {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.event-location {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #f8fafc;
+}
+
+.event-item-btn :active {
+  border: 1px solid #2dd4bf;
+  border-radius: 10px;
+}
